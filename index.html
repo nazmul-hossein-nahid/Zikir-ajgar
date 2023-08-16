@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>সালাতের পর যিকর মুস্তাহাব</title>
+</head>
+
+<body style="font-family: 'Noto Serif Bengali', serif;" class="px-5" >
+    <div class="md:w-1/2 md:mx-auto mt-10 md:mt-40 ">
+        <p class="text-black text-center text-lg"><q>রসূলুল্লাহ (সাঃ) বলেছেনঃ যে ব্যক্তি প্রত্যেক ওয়াক্ত সালাতের শেষে
+                তেত্রিশবার আল্লাহর তাসবীহ বা পবিত্রতা বর্ণনা করবে, তেত্রিশবার আল্লাহর তাহমীদ বা আল্লাহর প্রশংসা করবে
+                এবং তেত্রিশবার তাকবীর বা আল্লাহর মহত্ব বর্ণনা করবে আর এভাবে নিরানব্বই বার হওয়ার পর শততম পূর্ণ করতে
+                বলবে “লা-ইলা-হা ইল্লাল্ল-হু ওয়াহদাহু লা- শারীকা-লাহু লাহুল মুলকু ওয়ালাহুল হামদু ওয়াহুওয়া আলা-
+                কুল্লি শাইয়িন কদীর”।</q></p>
+        <p class="text-black text-center text-lg mt-5">-সহীহ মুসলিম হা/৫৯৭</p>
+    </div>
+    <section class="mt-20  md:mx-auto md:w-9/12 grid md:grid-cols-3  gap-5">
+        <div class="bg-slate-500  p-5">
+            <h1 class="text-4xl font-bold text-white text-center mt-10"><q>সুবহানাল্লাহ</q></h1>
+            <p class="text-center m-10 text-5xl text-white"><span id="subhanallah">0</span></p>
+            <div class="text-center my-5">
+                <button id="subhanallah-plus"
+                    class="bg-amber-500 hover:bg-amber-700 w-28 h-8 rounded-sm text-white font-extrabold text-xl">+</button>
+                <button id="reset1"
+                    class="bg-amber-500 hover:bg-amber-700 w-28 h-8 rounded-sm text-white text-xl">Reset</button>
+            </div>
+        </div>
+        <div class="bg-slate-500  p-5">
+            <h1 class="text-4xl font-bold text-white text-center mt-10"><q>আলহামদুলিল্লাহ</q></h1>
+            <p class="text-center m-10 text-5xl text-white"><span id="alhamdulillah">0</span></p>
+            <div class="text-center my-5">
+                <button id="alhamdulillah-plus"
+                    class="bg-amber-500 hover:bg-amber-700 w-28 h-8 rounded-sm text-white font-extrabold text-xl">+</button>
+                <button id="reset2"
+                    class="bg-amber-500 hover:bg-amber-700 w-28 h-8 rounded-sm text-white text-xl">Reset</button>
+            </div>
+        </div>
+        <div class="bg-slate-500  p-5">
+            <h1 class="text-4xl  font-bold text-white text-center mt-10"><q>আল্লাহু আকবর</q></h1>
+            <p class="text-center m-10 text-5xl text-white"><span id="allahuakbar">0</span></p>
+            <div class="text-center my-5">
+                <button id="allahuakbar-plus"
+                    class="bg-amber-500 hover:bg-amber-700 w-28 h-8 rounded-sm text-white font-extrabold text-xl">+</button>
+                <button id="reset3"
+                    class="bg-amber-500 hover:bg-amber-700 w-28 h-8 rounded-sm text-white text-xl">Reset</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="text-center mt-10">
+        <button id="resetall"
+            class="bg-lime-600 text-center hover:bg-amber-700 w-32 h-10 rounded-lg text-white text-xl">Reset All</button>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/utility.js"></script>
+</body>
+
+</html>
